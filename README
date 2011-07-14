@@ -1,2 +1,8 @@
 This is taken from here, with minor changes from me:
 http://stackoverflow.com/questions/4441798/how-to-use-redis-publish-subscribe-with-nodejs-by-event-driven
+
+Start it with
+  node app.js
+then fire up the redis client ./redis-cli
+  publish pubsub "Hello world!"
+
