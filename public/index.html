@@ -9,8 +9,7 @@
     <div id="content">ttt</div>
     <script>    
         $(document).ready(function() {
-            // var socket = new io.Socket('vs165120.vserver.de', {port: 3000, rememberTransport: false/*, transports: ['xhr-polling']*/});
-            var socket = io.connect('http://vs165120.vserver.de:3000');
+            var socket = io.connect('http://localhost:3000');
             var content = $('#content');
 
             socket.on('connect', function() {
